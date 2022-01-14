@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.javacourse.project.hibernateAndJpa.Business.ICityService;
-//city nenesi gelmez ise yaz
 import com.javacourse.project.hibernateAndJpa.Entities.*;
 
 @RestController

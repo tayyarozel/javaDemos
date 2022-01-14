@@ -14,7 +14,6 @@ import com.javacourse.project.hibernateAndJpa.Entities.City;
 @Repository
 public class HibernateCityDal implements ICityDal {
 	
-	// bunu yazmak zorundasın cunku hıbernate bir sessionfactory ihtiyaçın var bunu otomatık yapan bu EntiityManager
 	private EntityManager entityManager;
 	@Autowired
 	public HibernateCityDal(EntityManager entityManager) {

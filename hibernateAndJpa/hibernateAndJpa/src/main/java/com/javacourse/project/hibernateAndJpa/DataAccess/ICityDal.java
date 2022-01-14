@@ -1,7 +1,6 @@
 package com.javacourse.project.hibernateAndJpa.DataAccess;
 import java.util.List;
 
-// city nesnesi gelemdii için yanı DataAcees katmanı Entittes katmanını görmediği için bunu ekledik
 import com.javacourse.project.hibernateAndJpa.Entities.City;
 
 public interface ICityDal {
